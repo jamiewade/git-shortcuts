@@ -6,12 +6,12 @@
 ## Miscellaneous
 alias c='clear'
 alias gaa='git add --all'
-alias gbl='git branch --list'
 alias gd='git diff'
 alias gfa='git fetch --all'
 alias gs='git status'
 
 ## Branches
+alias gbl='git branch --list'
 alias gcom='git checkout master'
 alias gcod='git checkout develop'
 
