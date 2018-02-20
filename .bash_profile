@@ -2,6 +2,7 @@
 alias c='clear'
 alias gaa='git add --all'
 alias gd='git diff'
+alias gfa='git fetch --all'
 alias gs='git status'
 
 # Branches

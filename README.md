@@ -23,6 +23,7 @@ These aliases are assuming your Git remote is named `origin`. Feel free to adjus
 | `c`  | `clear`  |
 | `gaa`  | `git add --all`  |
 | `gd`  | `git diff`  |
+| `gfa`  | `git fetch --all`  |
 | `gs`  | `git status`  |
 
 #### Branches
