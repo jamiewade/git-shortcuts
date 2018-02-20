@@ -22,7 +22,6 @@ These aliases are assuming your Git remote is named `origin`. Feel free to adjus
 | ------------- | ------------- |
 | `c`  | `clear`  |
 | `gaa`  | `git add --all`  |
-| `gbl`  | `git branch --list`  |
 | `gd`  | `git diff`  |
 | `gfa`  | `git fetch --all`  |
 | `gs`  | `git status`  |
@@ -30,6 +29,7 @@ These aliases are assuming your Git remote is named `origin`. Feel free to adjus
 #### Branches
 | Shortcut  | Full command |
 | ------------- | ------------- |
+| `gbl`  | `git branch --list`  |
 | `gcom`  | `git checkout master`  |
 | `gcod`  | `git checkout develop`  |
 
