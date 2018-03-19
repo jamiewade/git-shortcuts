@@ -43,6 +43,7 @@ These aliases are assuming your Git remote is named `origin`. Feel free to adjus
 | ------------- | ------------- |
 | `gphom`  | `git push origin master`  |
 | `gphod`  | `git push origin develop`  |
+| `gpht`  | `git push --tags`  |
 
 #### Pulling
 | Shortcut  | Full command |

@@ -21,6 +21,7 @@ alias gcod='git checkout develop'
 ## Pushing
 alias gphom='git push origin master'
 alias gphod='git push origin develop'
+alias gpht='git push --tags'
 
 ## Pulling
 alias gplom='git add --all && git stash && git pull --rebase origin master && git stash pop'
