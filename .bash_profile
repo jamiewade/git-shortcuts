@@ -10,6 +10,9 @@ alias gd='git diff'
 alias gfa='git fetch --all'
 alias gs='git status'
 
+## Remotes
+alias gr='git remote'
+
 ## Branches
 alias gbl='git branch --list'
 alias gcom='git checkout master'

@@ -26,6 +26,11 @@ These aliases are assuming your Git remote is named `origin`. Feel free to adjus
 | `gfa`  | `git fetch --all`  |
 | `gs`  | `git status`  |
 
+#### Remotes
+| Shortcut  | Full command |
+| ------------- | ------------- |
+| `gr`  | `git remote`  |
+
 #### Branches
 | Shortcut  | Full command |
 | ------------- | ------------- |
