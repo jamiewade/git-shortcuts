@@ -56,6 +56,36 @@ These aliases are assuming your Git remote is named `origin`. Feel free to adjus
 | `gmm`  | `git merge master`  |
 | `gmd`  | `git merge develop`  |
 
+#### Git Flow
+
+##### Miscellaneous
+| Shortcut  | Full command |
+| ------------- | ------------- |
+| `gfi`  | `git flow init`  |
+
+##### Features
+| Shortcut  | Full command |
+| ------------- | ------------- |
+| `gffs`  | `git flow feature start XX`  |
+| `gfff`  | `git flow feature finish XX`  |
+| `gffp`  | `git flow feature publish XX`  |
+| `gffplo`  | `git flow feature pull origin XX`  |
+| `gfft`  | `git flow feature track XX`  |
+
+##### Releases
+| Shortcut  | Full command |
+| ------------- | ------------- |
+| `gfrs`  | `git flow release start XX`  |
+| `gfrp`  | `git flow release publish XX`  |
+| `gfrt`  | `git flow release track XX`  |
+| `gfrf`  | `git flow release finish XX`  |
+
+##### Hotfixes
+| Shortcut  | Full command |
+| ------------- | ------------- |
+| `gfhs`  | `git flow hotfix start XX`  |
+| `gfhf`  | `git flow hotfix finish XX`  |
+
 #### Folder Navigation
 | Shortcut  | Full command |
 | ------------- | ------------- |

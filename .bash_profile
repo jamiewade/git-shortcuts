@@ -30,6 +30,23 @@ alias gplod='git add --all && git stash && git pull --rebase origin develop && g
 alias gmm='git merge master'
 alias gmd='git merge develop'
 
+## Git Flow
+alias gfi='git flow init'
+
+alias gffs='git flow feature start'
+alias gfff='git flow feature finish'
+alias gffp='git flow feature publish'
+alias gffplo='git flow feature pull origin'
+alias gfft='git flow feature track'
+
+alias gfrs='git flow release start'
+alias gfrp='git flow release publish'
+alias gfrt='git flow release track'
+alias gfrf='git flow release finish'
+
+alias gfhs='git flow hotfix start'
+alias gfhf='git flow hotfix finish'
+
 ## Folder Navigation
 alias c.1='cd ../'
 alias c.2='cd ../../'
