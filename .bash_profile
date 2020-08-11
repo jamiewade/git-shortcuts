@@ -5,6 +5,7 @@
 
 ## Miscellaneous
 alias c='clear'
+alias clean='git reset HEAD --hard && git checkout develop && git pull --rebase origin develop && clear && git status'
 alias gaa='git add --all'
 alias gd='git diff'
 alias gfa='git fetch --all'
@@ -19,11 +20,13 @@ alias gcom='git checkout master'
 alias gcod='git checkout develop'
 
 ## Pushing
+alias gph='git push'
 alias gphom='git push origin master'
 alias gphod='git push origin develop'
 alias gpht='git push --tags'
 
 ## Pulling
+alias gpl='git pull --rebase'
 alias gplom='git add --all && git stash && git pull --rebase origin master && git stash pop'
 alias gplod='git add --all && git stash && git pull --rebase origin develop && git stash pop'
 
