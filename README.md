@@ -21,6 +21,7 @@ These aliases are assuming your Git remote is named `origin`. Feel free to adjus
 | Shortcut  | Full command |
 | ------------- | ------------- |
 | `c`  | `clear`  |
+| `clean`  | `git reset HEAD --hard && git checkout develop && git pull --rebase origin develop && clear && git status`  |
 | `gaa`  | `git add --all`  |
 | `gd`  | `git diff`  |
 | `gfa`  | `git fetch --all`  |
@@ -41,6 +42,7 @@ These aliases are assuming your Git remote is named `origin`. Feel free to adjus
 #### Pushing
 | Shortcut  | Full command |
 | ------------- | ------------- |
+| `gph`  | `git push`  |
 | `gphom`  | `git push origin master`  |
 | `gphod`  | `git push origin develop`  |
 | `gpht`  | `git push --tags`  |
@@ -48,6 +50,7 @@ These aliases are assuming your Git remote is named `origin`. Feel free to adjus
 #### Pulling
 | Shortcut  | Full command |
 | ------------- | ------------- |
+| `gpl`  | `git pull --rebase`  |
 | `gplom`  | `git add --all && git stash && git pull --rebase origin master && git stash pop`  |
 | `gplod`  | `git add --all && git stash && git pull --rebase origin develop && git stash pop`  |
 
