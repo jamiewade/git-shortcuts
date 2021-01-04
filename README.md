@@ -1,16 +1,12 @@
 # Simple Git shortcuts
+
 A collection of simple Git aliases to speed up your workflow.
 
 ## Installation
-Installation is very simple. Just download `.bash_profile` and put it into the correct folder for your operating system. Once done, restart your command window or terminal for the aliases to take effect.
 
-### Windows
-For Windows users, the file should sit in the root folder for your user: `C:/Users/USER`
+Simply copy/paste the contents of `shortcuts.txt` into the config file for your terminal. Once done, restart your terminal for the aliases to take effect.
 
 ## Notes
-If you already have a `.bash_profile` file, the contents of the file included in this repository can safely be added to the end of the existing file.
-
-If you had your terminal software open when you copied over `.bash_profile`, make sure to close it and open it again before you start using these aliases. It won't know about them otherwise.
 
 These aliases are assuming your Git remote is named `origin`. Feel free to adjust/create new aliases to match your workflow.
 
@@ -28,11 +24,13 @@ These aliases are assuming your Git remote is named `origin`. Feel free to adjus
 | `gs`  | `git status`  |
 
 #### Remotes
+
 | Shortcut  | Full command |
 | ------------- | ------------- |
 | `gr`  | `git remote`  |
 
 #### Branches
+
 | Shortcut  | Full command |
 | ------------- | ------------- |
 | `gbl`  | `git branch --list`  |
@@ -40,6 +38,7 @@ These aliases are assuming your Git remote is named `origin`. Feel free to adjus
 | `gcod`  | `git checkout develop`  |
 
 #### Pushing
+
 | Shortcut  | Full command |
 | ------------- | ------------- |
 | `gph`  | `git push`  |
@@ -48,6 +47,7 @@ These aliases are assuming your Git remote is named `origin`. Feel free to adjus
 | `gpht`  | `git push --tags`  |
 
 #### Pulling
+
 | Shortcut  | Full command |
 | ------------- | ------------- |
 | `gpl`  | `git pull --rebase`  |
@@ -55,6 +55,7 @@ These aliases are assuming your Git remote is named `origin`. Feel free to adjus
 | `gplod`  | `git add --all && git stash && git pull --rebase origin develop && git stash pop`  |
 
 #### Merging
+
 | Shortcut  | Full command |
 | ------------- | ------------- |
 | `gmm`  | `git merge master`  |
@@ -63,11 +64,13 @@ These aliases are assuming your Git remote is named `origin`. Feel free to adjus
 #### Git Flow
 
 ##### Miscellaneous
+
 | Shortcut  | Full command |
 | ------------- | ------------- |
 | `gfi`  | `git flow init`  |
 
 ##### Features
+
 | Shortcut  | Full command |
 | ------------- | ------------- |
 | `gffs`  | `git flow feature start XX`  |
@@ -77,6 +80,7 @@ These aliases are assuming your Git remote is named `origin`. Feel free to adjus
 | `gfft`  | `git flow feature track XX`  |
 
 ##### Releases
+
 | Shortcut  | Full command |
 | ------------- | ------------- |
 | `gfrs`  | `git flow release start XX`  |
@@ -85,12 +89,14 @@ These aliases are assuming your Git remote is named `origin`. Feel free to adjus
 | `gfrf`  | `git flow release finish XX`  |
 
 ##### Hotfixes
+
 | Shortcut  | Full command |
 | ------------- | ------------- |
 | `gfhs`  | `git flow hotfix start XX`  |
 | `gfhf`  | `git flow hotfix finish XX`  |
 
 #### Folder Navigation
+
 | Shortcut  | Full command |
 | ------------- | ------------- |
 | `c.1`  | `cd ../`  |
